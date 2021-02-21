@@ -9,7 +9,7 @@
 - git commit -m "커밋 메시지" : 현재 staging area에 있는 것들 커밋으로 남기기
 - git help [커맨드 이름] : 사용법이 궁금한 Git 커맨드의 공식 메뉴얼 내용 출력
 
-
+</br></br>
 
 - git log : 커밋 히스토리를 출력
 - git log --pretty=oneline : --pretty 옵션을 사용하면 커밋 히스토리를 다양한 방식으로 출력할 수 있습니다. --pretty 옵션에 oneline이라는 값을 주면 커밋 하나당 한 줄씩 출력해줍니다. --- pretty 옵션에 대해 더 자세히 알고싶으면: https://git-scm.com/docs/pretty-formats
@@ -27,3 +27,12 @@
 		그리고 이때 커밋 아이디 대신 HEAD의 위치를 기준으로 한 표기법(예 : HEAD^, HEAD~3)을 사용해도 됨
 
 - git tag [태그 이름] [커밋 아이디] : 특정 커밋에 태그를 붙임
+
+</br></br>
+
+- git branch [새 브랜치 이름] : 새로운 브랜치를 생성
+- git checkout -b [새 브랜치 이름] : 새로운 브랜치를 생성하고 그 브랜치로 바로 이동
+- git branch -d [기존 브랜치 이름] : 브랜치 삭제
+- git checkout [기존 브랜치 이름] : 그 브랜치로 이동
+- git merge [기존 브랜치 이름] : 현재 브랜치에 다른 브랜치를 머지
+- git merge --abort : 머지를 하다가 conflict가 발생했을 때, 일단은 머지 작업을 취소하고 이전 상태로 돌아감
