@@ -15,9 +15,14 @@
     - font와 브라우저에 따라 사용 가능한 font-weight가 정해져있다. -> test 해보며 사용하기
     - font-weight: normal; = font-weight: 400 / font-weight: bold; =  font-weight: 700
 
+  * font-family
+    - font-family: 폰트1, 폰트2, 폰트종류 -> 폰트 1이 없으면 폰트 2로 설정하고, 그것도 없으면 폰트 종류 중에 설치되어있는 것으로 설정
+
   * text-align
     - a tag 를 가운데 정렬할 때는 div tag로 감싸주기
 
-
   * text-decoration
-    - a tag의 밑줄을 없애기 위해서는 text-decoration: none; 속성을 추가한다. 
+    - a tag의 밑줄을 없애기 위해서는 text-decoration: none; 속성을 추가한다.
+
+  * image 가운데 정렬
+    - display: block; margin-left: auto; margin-right: auto;
