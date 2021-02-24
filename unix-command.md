@@ -43,7 +43,7 @@ mv dir DEST
 
 ## :bulb: cp
 
-### 파일복사
+### 파일 복사
 ```
 cp file1 file2
 ```
@@ -62,18 +62,103 @@ cp -i file1 file2
 
 ## :bulb: rm
 
-### 파일삭제
+### 파일 삭제
 ```
 rm file
 ```
 
-### 디렉토리삭제
+### 디렉토리 삭제
 ```
 rm -r dir
 ```
 
-### 디렉토리 안의 파일을 하나씩 확인
+### 디렉토리 안의 파일을 하나씩 확인한 후 삭제
 ```
 rm -r -i dir
 ```
+
+
+<br><br><br>
+
+## :bulb: cat, less
+
+#### cat: 파일들의 내용을 이어서 출력
+#### less: cat과 다르게 한 화면에 하나의 파일을 보여줌
+```
+less file1 file2
+```
+'space': 아래로 한 페이지 이동, 'b': 위로 한 페이지 이동
+'G': 맨 끝으로 이동, 'g': 맨 처음으로 이동
+':n': 다음 파일으로 이동, ':p': 이전 파일로 이동
+
+
+
+<br><br><br>
+
+## :bulb: head, tail: 파일의 일부 내용만 볼 수 있는 command
+
+#### file의 처음 부분 20줄 
+```
+head -n 20 file
+```
+
+#### file의 뒷 부분 30줄 
+```
+tail -n 30 file
+```
+
+
+<br><br><br>
+
+
+
+
+<br><br><br>
+
+# terminal 사용 tip
+
+<br><br>
+
+### :heavy_check_mark: history: 사용한 command 내역을 보여줌
+   - 느낌표(!)를 번호 앞에 붙이고 실행하면 간단하게 그 커맨드를 다시 실행할 수 있다.
+
+### :heavy_check_mark: clear: 터미널 화면을 깔끔하게
+
+### :heavy_check_mark: tab key: 디렉토리나 파일 이름 자동완성
+
+### :heavy_check_mark: ctrl+a: 커서가 맨 앞으로 이동 / ctrl+e: 커서가 맨 뒤로 이동
+
+
+
+<br><br><br>
+
+# vim 사용 tip
+
+<br><br>
+
+## -> 일반모드
+  - ecs 키: 일반모드로 전환
+
+## 일반모드 -> 입력모드
+  
+  - i: insert(삽입) 입력모드로 전환
+  - a: append(추가) 커서를 한 칸 뒤로 옮기고 입력 모드로 전환
+  - I: Insert(삽입) 커서를 첫 번째 칸으로 옮기고 입력 모드로 전환
+  - A: Append(추가) 커서를 맨 마지막 칸으로 옮기고 입력 모드로 전환
+  - o: open(개행) 커서를 다음 줄로 옮기고 입력 모드로 전환
+  - O: Open(개행) 커서 위에 빈 줄이 생기고 입력 모드로 전환
+
+<br>
+
+## 일반모드 -> 명령모드 
+
+  - : colon 명령모드로 전환
+  - w: write 저장하기
+  - q: quit vim 나가기
+  - q!: 변경된 내용이 저장되지 않았다는 경고를 무시하고 강제로 vim 나가기
+  - !: 강제 실행
+
+
+
+
 
