@@ -36,3 +36,11 @@ const add = (a, b) => {
   return a + b;
 };
 ```
+
+<br>
+
+## 비동기 실행
+
+특정 작업이 완료되었을 때 실행할 **콜백**을 등록해두고 바로 **다음 코드로 실행**을 넘기는 것
+
+Node.js의 비동기 실행은 libuv라는 라이브러리를 통해서 이루어진다. http://docs.libuv.org/en/v1.x/design.html
