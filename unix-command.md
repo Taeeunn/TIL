@@ -58,4 +58,22 @@ cp -r dir1 dir2
 cp -i file1 file2
 ```
 
+<br><br><br>
+
+## :bulb: rm
+
+### 파일삭제
+```
+rm file
+```
+
+### 디렉토리삭제
+```
+rm -r dir
+```
+
+### 디렉토리 안의 파일을 하나씩 확인
+```
+rm -r -i dir
+```
 
