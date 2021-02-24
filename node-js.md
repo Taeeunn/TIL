@@ -48,4 +48,10 @@ Node.js의 비동기 실행은 libuv라는 라이브러리를 통해서 이루�
 
 <br>
 
-#### EventEmitter 객체 https://nodejs.org/api/events.html#events_class_eventemitter
+#### EventEmitter 객체:  
+https://nodejs.org/api/events.html#events_class_eventemitter
+
+#### Event Loop: 
+https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
+https://nodejs.org/en/docs/guides/dont-block-the-event-loop/ 
+                 
