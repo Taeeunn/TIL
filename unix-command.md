@@ -185,3 +185,23 @@ Vim을 게임처럼 재미있게 배울 수 있는 사이트(https://vim-adventu
    - 잘라내기: d(삭제) -> p/P(붙여넣기)
 
 
+<br><br>
+
+# 그 외
+
+<br>
+
+### 외부 프로그램 설치하기
+
+```
+sudo apt install program_name
+```
+<br>
+
+### 외부 프로그램 삭제하기
+
+```
+sudo apt remove program_name
+```
+
+
