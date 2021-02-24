@@ -143,11 +143,13 @@ Vim을 게임처럼 재미있게 배울 수 있는 사이트(https://vim-adventu
 
 ![image](https://user-images.githubusercontent.com/32799078/109022835-8ed51780-76ff-11eb-8c25-084bb2decfee.png)
 
+
 <br>
 
-## -> 일반모드
-  - ecs 키: 일반모드로 전환
+## 일반모드
 
+![image](https://user-images.githubusercontent.com/32799078/109022935-a8765f00-76ff-11eb-91e9-49a302aa5895.png)
+  
 <br>
 
 ## 입력모드
@@ -165,12 +167,6 @@ Vim을 게임처럼 재미있게 배울 수 있는 사이트(https://vim-adventu
   - / slash 명령모드로 전환 (텍스트 검색)
 
 
-<br>
-
-## 일반모드
-
-![image](https://user-images.githubusercontent.com/32799078/109022935-a8765f00-76ff-11eb-91e9-49a302aa5895.png)
-  
 <br>
 
 
