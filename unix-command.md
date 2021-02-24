@@ -134,31 +134,58 @@ tail -n 30 file
 
 # vim 사용 tip
 
-<br><br>
+<br>
+
+Vim 공식 사용 설명서(https://vimhelp.org/#help.txt) <br>
+Vim을 게임처럼 재미있게 배울 수 있는 사이트(https://vim-adventures.com/)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/32799078/109022835-8ed51780-76ff-11eb-8c25-084bb2decfee.png)
+
+<br>
 
 ## -> 일반모드
   - ecs 키: 일반모드로 전환
 
-## 일반모드 -> 입력모드
+<br>
+
+## 입력모드
   
-  - i: insert(삽입) 입력모드로 전환
-  - a: append(추가) 커서를 한 칸 뒤로 옮기고 입력 모드로 전환
-  - I: Insert(삽입) 커서를 첫 번째 칸으로 옮기고 입력 모드로 전환
-  - A: Append(추가) 커서를 맨 마지막 칸으로 옮기고 입력 모드로 전환
-  - o: open(개행) 커서를 다음 줄로 옮기고 입력 모드로 전환
-  - O: Open(개행) 커서 위에 빈 줄이 생기고 입력 모드로 전환
+![image](https://user-images.githubusercontent.com/32799078/109023224-f55a3580-76ff-11eb-8330-484cde79e2c2.png)
 
 <br>
 
-## 일반모드 -> 명령모드 
+## 명령모드 
+
+![image](https://user-images.githubusercontent.com/32799078/109023703-5b46bd00-7700-11eb-8506-e16a5dc414ed.png)
 
   - : colon 명령모드로 전환
-  - w: write 저장하기
-  - q: quit vim 나가기
-  - q!: 변경된 내용이 저장되지 않았다는 경고를 무시하고 강제로 vim 나가기
   - !: 강제 실행
+  - / slash 명령모드로 전환 (텍스트 검색)
 
 
+<br>
 
+## 일반모드
+
+![image](https://user-images.githubusercontent.com/32799078/109022935-a8765f00-76ff-11eb-91e9-49a302aa5895.png)
+  
+<br>
+
+
+## 비주얼모드
+
+![image](https://user-images.githubusercontent.com/32799078/109023828-787b8b80-7700-11eb-920b-7359562b019b.png)
+
+   - v: 비주얼 모드로 전환 / 한 글자씩 블록 지정
+   - V: 비주얼 모드로 전환 / 줄 단위로 블록 지정
+   - 방향키로 블록 지정
+   - x: 텍스트 삭제
+   - y: yank 복사하기
+   - p: 커서 다음 칸에 붙여넣기
+   - P: 커서 이전 칸에 붙여넣기
+   - d: delete 삭제하기 
+   - 잘라내기: d(삭제) -> p/P(붙여넣기)
 
 
