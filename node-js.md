@@ -2,7 +2,8 @@
 
 <br>
 
-Node.js api 공식 문서: https://nodejs.org/dist/latest-v12.x/docs/api/
+Node.js api 공식 문서: https://nodejs.org/dist/latest-v12.x/docs/api/ <br><br>
+Airbnb javascript 스타일 가이드: https://github.com/airbnb/javascript
 
 <br>
 
@@ -52,6 +53,20 @@ Node.js의 비동기 실행은 libuv라는 라이브러리를 통해서 이루�
 https://nodejs.org/api/events.html#events_class_eventemitter
 
 #### Event Loop: 
-https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
+https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/ <br>
 https://nodejs.org/en/docs/guides/dont-block-the-event-loop/ 
+
+
+
+
+<br><br>
+
+## web server
+
+- 특정 프로토콜로 통신을 하는 서버 프로그램은 특정 포트 번호를 사용하도록 정해져 있다. -> 다른 포트 번호를 사용하는 해도 기술적으로는 문제가 없지만 약속이니까 지키자
+- 포트 번호를 생략해도 맨 앞의 http, https 같은 프로토콜 정보를 보고 브라우저는 자동으로 그에 맞는 포트 번호를 설정하고 서버에 접속을 시도한다. 
+
+![image](https://user-images.githubusercontent.com/32799078/109052649-3281f000-771f-11eb-971f-fdf589919b15.png)
+
+
                  
