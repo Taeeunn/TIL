@@ -3,7 +3,13 @@
 <br>
 
 Node.js api 공식 문서: https://nodejs.org/dist/latest-v12.x/docs/api/ <br><br>
-Airbnb javascript 스타일 가이드: https://github.com/airbnb/javascript
+Airbnb javascript 스타일 가이드: https://github.com/airbnb/javascript <br><br>
+Google javascript 스타일 가이드: https://google.github.io/styleguide/jsguide.html
+
+<br>
+
+
+![image](https://user-images.githubusercontent.com/32799078/109110407-6b9b7e00-777a-11eb-979c-6f10b73836ae.png)
 
 <br>
 
